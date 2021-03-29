@@ -1,0 +1,30 @@
+.header {
+  margin-top: 30px;
+}
+
+.header-logo {
+  display: block;
+  max-width: 116px;
+  height: 100%;
+
+  img {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+.header-nav {
+  flex: 1;
+  justify-content: flex-end;
+}
+
+.nav-list {
+  margin-right: 40px;
+}
+
+.nav-list__item {
+
+  a {
+    padding: 0 18px;
+  }
+}

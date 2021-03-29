@@ -1,0 +1,51 @@
+.banner {
+  min-height: 85rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-img {
+  max-width: 360px;
+  width: 100%;
+}
+
+.banner-content {
+
+  p {
+    line-height: 1.4;
+    margin-bottom: 40px;
+  }
+}
+
+.banner-content__rank {
+  background: #e2eaed;
+  border-radius: 50px;
+  width: max-content;
+  padding: 0 45px;
+  height: 36px;
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.banner-content__rank-icon {
+  background: #feaa25;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 36px;
+  height: 100%;
+  border-radius: 50px;
+}
+
+.banner-heading {
+  line-height: 1.2;
+  margin-bottom: 28px;
+}
+
+.banner-btn {
+
+  a:last-child {
+    color: $btnColor;
+    margin-left: 25px;
+  }
+}

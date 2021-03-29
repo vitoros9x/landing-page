@@ -159,6 +159,7 @@ table {
 // ===== Start CSS =============
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -189,13 +190,10 @@ img {
   margin: 0 -15px 0 -15px;
 }
 
-[class*="col-"] {
-  padding: 0 15px;
-}
-
 /* For mobile phones: */
 [class*="col-"] {
   width: 100%;
+  padding: 0 15px;
 }
 
 @media only screen and (min-width: 576px) {
