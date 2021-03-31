@@ -45,6 +45,10 @@ html {
   justify-content: center;
 }
 
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
 .items-center {
   align-items: center;
 }
@@ -75,6 +79,10 @@ $fontSizes: 14, 16, 18, 20, 36, 40, 48, 60;
   .text-#{$fontSize} {
     font-size: $fontSize/10 + rem;
   }
+}
+
+p[class*='text-'] {
+  line-height: 1.5;
 }
 
 .title-color,
@@ -110,6 +118,18 @@ $fontSizes: 14, 16, 18, 20, 36, 40, 48, 60;
 
 .border-payment {
   border: 2px solid #ebebeb;
+}
+
+.text-green {
+  color: #40975f;
+}
+
+.text-red {
+  color: #f55767;
+}
+
+.text-blue {
+  color: #2563ff;
 }
 
 .col-1-5 {
